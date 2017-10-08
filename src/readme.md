@@ -1,1 +1,11 @@
-I forget how to compile this into an executable jar, but if someone looks it up, please paste instructions in here.
+# Running the executable jar:
+(from the command-line, should work on Windows, OSX, or *nix)
+
+    java -jar feedbackControllersDemo.jar
+
+# Building the executable jar:
+(from the command-line, should work on Windows, OSX, or *nix)
+
+    cd controllersDemo/src
+    javac *.java
+    jar cfm feedbackControllersDemo.jar feedbackControllersDemo.mf *.class target2.jpg
